@@ -6,7 +6,11 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCasesClass.TC_001Header"/>
+   <!--     <class name="testCasesClass.TC_001Header"/>
+      <class name="testCasesClass.TC_002Search"/>
+       <class name="testCasesClass.TC_003LivelyRootImgText"/>
+       <class name="testCasesClass.TC_004Account"/>  -->
+       <class name="testCasesClass.TC_012_ShopByPlantType1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

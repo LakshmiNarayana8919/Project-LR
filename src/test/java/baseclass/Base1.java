@@ -4,6 +4,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import org.apache.logging.log4j.Logger;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -12,22 +13,35 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.*;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+
+
 public class Base1 {
 	public static WebDriver driver;
+	public static Logger log = LogManager.getLogger(Base1.class);
 
+	
+	
 	@BeforeSuite
 	public void OPENURL() {
 		
 		driver=new EdgeDriver();
 		
+
 		driver.get("https://www.livelyroot.com/");
+		log.info("Open url successfully");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 		
 	}
 	@AfterSuite
 	public void CLOSEURL() {
 		driver.close();
+		log.info("close url successfully");
 
 	}
 	
@@ -42,7 +56,7 @@ public class Base1 {
 		} catch (Exception e) {
 			e.getMessage();
 		}
-	   
+	    log.info("print screenshot when execution is failed successfully");
 	  return dest1;
 	  
 	}

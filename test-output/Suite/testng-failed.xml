@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testCasesClass.TC_004Account">
+        <methods>
+          <include name="CLOSEURL"/>
+          <include name="clickaccount"/>
+          <include name="OPENURL"/>
+        </methods>
+      </class> <!-- testCasesClass.TC_004Account -->
       <class name="testCasesClass.TC_001Header">
         <methods>
           <include name="CLOSEURL"/>
