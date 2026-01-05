@@ -11,6 +11,6 @@ public class TC_012_ShopByPlantType1 extends Base1{
 	public void sbp() {
 		ShopByPlantType sbpt=new ShopByPlantType(driver);
 		sbpt.shopbplant();
-		log.info("shop by plant feature executed successfully");
+		log.info("Shop by plants type is successfully executed ");
 	}
 }

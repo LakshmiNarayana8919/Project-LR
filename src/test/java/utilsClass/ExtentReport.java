@@ -21,7 +21,7 @@ public class ExtentReport implements ITestListener{
 	 public ExtentTest test;
 	 
 	 	public void onStart(ITestContext context) {
-			sparkreporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\extentreport\\"+"Report1.html");
+			sparkreporter = new ExtentSparkReporter(System.getProperty("user.dir")+"\\extentreport\\"+"Report2.html");
 			sparkreporter.config().setDocumentTitle(" Testing Practise ");
 			sparkreporter.config().setReportName(" Testing--1");
 	     	sparkreporter.config().setTheme(Theme.STANDARD);

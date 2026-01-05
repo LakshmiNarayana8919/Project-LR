@@ -10,8 +10,9 @@
       <class name="testCasesClass.TC_002Search"/>
        <class name="testCasesClass.TC_003LivelyRootImgText"/>
        <class name="testCasesClass.TC_004Account"/> 
-       <class name="testCasesClass.TC_012_ShopByPlantType1"/>   -->
-        <class name="testCasesClass.TC_013_ShopByPlantType2"/>
+       <class name="testCasesClass.TC_012_ShopByPlantType1"/>   
+        <class name="testCasesClass.TC_013_ShopByPlantType2"/> -->
+         <class name="testCasesClass.TC_018_BestSellingPlants5"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

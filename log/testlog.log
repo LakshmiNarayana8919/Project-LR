@@ -1,0 +1,20 @@
+2025-12-30 12:30:39,696 - Project_LR -INFO - Shop By Plants Type 1 is successfully executed
+2025-12-30 12:33:27,896 - Project_LR -INFO - Money plant image link is successfully executed
+2025-12-30 12:35:03,654 - Project_LR -INFO - Money plant image link is successfully executed
+2025-12-30 15:18:49,013 - Project_LR -INFO - URL is Opened Successfully
+2025-12-30 15:19:19,466 - Project_LR -INFO - ZZ Plant in best selling plants is executed
+
+
+
+local host jenkins -
+
+http://localhost:8080/
+
+
+
+2026-01-05 10:28:00,541 - Project_LR -INFO - URL is Opened Successfully
+2026-01-05 10:28:56,361 - Project_LR -INFO - URL is Opened Successfully
+2026-01-05 10:30:11,763 - Project_LR -INFO - URL is Opened Successfully
+2026-01-05 10:33:06,977 - Project_LR -INFO - URL is Opened Successfully
+2026-01-05 12:34:21,915 - Project_LR -INFO - URL is Opened Successfully
+2026-01-05 12:34:49,138 - Project_LR -INFO - Indoor Olive Plant in best selling plants is executed

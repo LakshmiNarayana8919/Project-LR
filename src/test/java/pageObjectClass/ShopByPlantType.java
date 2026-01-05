@@ -19,6 +19,8 @@ public class ShopByPlantType {
 	@FindBy(xpath="(//img[@loading='lazy'])[32]")WebElement airplants;
 	@FindBy(xpath="(//img[@loading='lazy'])[30]")WebElement snakeplants;
     @FindBy(xpath="(//img[@loading='lazy'])[10]")WebElement airplantgrabbag;
+    
+    @FindBy(xpath="(//img[@loading='eager'])[1]")WebElement LivelyRootImgLink;
 	
 	public void shopbplant() {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -35,13 +37,15 @@ public class ShopByPlantType {
 	
 	
 	
-	public void shopbplant1() {
+	public void shopbplant1() throws InterruptedException {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		
 		js.executeScript("arguments[0].scrollIntoView()",sbplant);
 		
 		
 		snakeplants.click();
+		Thread.sleep(2000);
+		LivelyRootImgLink.click();
 		
 	}
 }
