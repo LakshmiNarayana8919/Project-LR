@@ -5,29 +5,47 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 
+
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.*;
 
+
+
+
+
 public class Base1 {
 	public static WebDriver driver;
+	public Logger log;
 
+	
+	
 	@BeforeSuite
 	public void OPENURL() {
 		
 		driver=new EdgeDriver();
 		
+
 		driver.get("https://www.livelyroot.com/");
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+         
 		
+		log=Logger.getLogger("Project_LR");
+		PropertyConfigurator.configure("log4j.properties");
+		
+		log.info("URL is Opened Successfully");
 	}
 	@AfterSuite
 	public void CLOSEURL() {
 		driver.close();
+		
 
 	}
 	

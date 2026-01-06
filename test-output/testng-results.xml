@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-21T15:22:58 IST" name="Suite" finished-at="2025-10-21T15:23:27 IST" duration-ms="28401">
+  <suite started-at="2026-01-05T10:33:06 IST" name="Default suite" finished-at="2026-01-05T10:33:13 IST" duration-ms="6453">
     <groups>
     </groups>
-    <test started-at="2025-10-21T15:22:58 IST" name="Test" finished-at="2025-10-21T15:23:27 IST" duration-ms="28401">
-      <class name="testCasesClass.TC_001Header">
-        <test-method is-config="true" signature="OPENURL()[pri:0, instance:testCasesClass.TC_001Header@5b12b668]" started-at="2025-10-21T15:22:26 IST" name="OPENURL" finished-at="2025-10-21T15:22:58 IST" duration-ms="32545" status="PASS">
+    <test started-at="2026-01-05T10:33:06 IST" name="Default test" finished-at="2026-01-05T10:33:13 IST" duration-ms="6453">
+      <class name="testCasesClass.TC_019_GetInspired1">
+        <test-method is-config="true" signature="OPENURL()[pri:0, instance:testCasesClass.TC_019_GetInspired1@77c2494c]" started-at="2026-01-05T10:32:40 IST" name="OPENURL" finished-at="2026-01-05T10:33:06 IST" duration-ms="26760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OPENURL -->
-        <test-method signature="clickheader()[pri:0, instance:testCasesClass.TC_001Header@5b12b668]" started-at="2025-10-21T15:22:59 IST" name="clickheader" finished-at="2025-10-21T15:23:27 IST" duration-ms="27770" status="PASS">
+        <test-method signature="getinspired()[pri:0, instance:testCasesClass.TC_019_GetInspired1@77c2494c]" started-at="2026-01-05T10:33:07 IST" name="getinspired" finished-at="2026-01-05T10:33:13 IST" duration-ms="6392" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickheader -->
-        <test-method is-config="true" signature="CLOSEURL()[pri:0, instance:testCasesClass.TC_001Header@5b12b668]" started-at="2025-10-21T15:23:29 IST" name="CLOSEURL" finished-at="2025-10-21T15:23:29 IST" duration-ms="589" status="PASS">
+        </test-method> <!-- getinspired -->
+        <test-method is-config="true" signature="CLOSEURL()[pri:0, instance:testCasesClass.TC_019_GetInspired1@77c2494c]" started-at="2026-01-05T10:33:13 IST" name="CLOSEURL" finished-at="2026-01-05T10:33:13 IST" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CLOSEURL -->
-      </class> <!-- testCasesClass.TC_001Header -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCasesClass.TC_019_GetInspired1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
