@@ -18,3 +18,77 @@ http://localhost:8080/
 2026-01-05 10:33:06,977 - Project_LR -INFO - URL is Opened Successfully
 2026-01-05 12:34:21,915 - Project_LR -INFO - URL is Opened Successfully
 2026-01-05 12:34:49,138 - Project_LR -INFO - Indoor Olive Plant in best selling plants is executed
+
+
+
+******* Code For Broken Links*********
+
+
+
+package pkg1;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Day12_BrokenLinks {
+
+	 public static WebDriver driver;
+		public static void main(String[] args) throws InterruptedException, IOException {
+			driver= new ChromeDriver();
+			//driver.get("https://demoqa.com/broken");
+			//driver.get("http://www.deadlinkcity.com/");
+			driver.get("https://www.flipkart.com/");
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
+			
+			int brokenlink=0;
+			// Find out links in web page 
+			
+			List<WebElement> links=driver.findElements(By.tagName("a"));
+			// itarate the all the links 
+			
+			int ln=links.size();
+			
+			for(int i=0; i<ln;i++) {
+				String hreflinks=links.get(i).getAttribute("href");
+				
+				// Check the if hreflikn is empty or not by using IF Conition
+				if(hreflinks==null) {
+					System.out.println("That link is Empty ");
+					continue;
+				}
+				// i have to read the hreflink values and hit into the browser and verify the status code is >=400 or not
+				// you want to do that href links in String  so we will convert into URL
+				URL urllinks= new URL(hreflinks);
+				// next we need to open into the url links into browser we have HTTP request so We convert the URL links into HTTP request formation 
+				HttpURLConnection httplink= (HttpURLConnection)urllinks.openConnection();
+				// now you have to open the http links into web
+				httplink.connect();
+				// now you have to verify the status code is it >=400 or not 
+				if(httplink.getResponseCode()>=400) {
+					System.out.println(httplink+" ---> its a BrokenLink");
+					brokenlink++;
+				}else {
+					System.out.println(httplink+" ---> its a ActiveLink");
+				}
+				
+			}
+		
+
+	}
+
+}
+
+
+
+2026-01-06 09:58:02,519 - Project_LR -INFO - URL is Opened Successfully

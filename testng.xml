@@ -7,12 +7,27 @@
   <test thread-count="5" name="Test">
     <classes>
    <!--     <class name="testCasesClass.TC_001Header"/>
+   
       <class name="testCasesClass.TC_002Search"/>
+      
        <class name="testCasesClass.TC_003LivelyRootImgText"/>
-       <class name="testCasesClass.TC_004Account"/> 
+       <class name="testCasesClass.TC_004Account"/>
+        <class name="testCasesClass.TC_005DropdownShopplants"/>
+        <class name="testCasesClass.TC_006DropdownGiftsplants"/>
+        <class name="testCasesClass.TC_007DropdownSubscriptions"/>
+        <class name="testCasesClass.TC_008DropdownCorporateGifting"/>
+        <class name="testCasesClass.TC_009ShopHolidayDecor_HomePage"/>
+        <class name="testCasesClass.TC_010ViewAllShopHolidayDecor"/>
+        <class name="testCasesClass.TC_011ShopByCollection"/>  
        <class name="testCasesClass.TC_012_ShopByPlantType1"/>   
-        <class name="testCasesClass.TC_013_ShopByPlantType2"/> -->
-         <class name="testCasesClass.TC_018_BestSellingPlants5"/> 
+        <class name="testCasesClass.TC_013_ShopByPlantType2"/> 
+        <class name="testCasesClass.TC_014_BestSellingPlants1"/> 
+         <class name="testCasesClass.TC_015_BestSellingPlants2"/> 
+           <class name="testCasesClass.TC_016_BestSellingPlants3"/> 
+           <class name="testCasesClass.TC_017_BestSellingPlants4"/>
+         <class name="testCasesClass.TC_018_BestSellingPlants5"/> -->
+         
+         <class name="testCasesClass.TC_019_GetInspired1"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
