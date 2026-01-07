@@ -5,6 +5,13 @@
 2025-12-30 15:19:19,466 - Project_LR -INFO - ZZ Plant in best selling plants is executed
 
 
+1.Prepared and executed test cases for every module.
+2.Performed functional testing, smoke testing, unit testing, integration testing and re-testing.
+3.Participated in defect reporting and tracking using JIRA tool.
+4.Identified defects and documented them clearly with proper steps.
+5.Tested the application’s performance across different browsers.
+6.Understanding all software testing concepts and testing methodologies
+
 
 local host jenkins -
 
@@ -92,3 +99,4 @@ public class Day12_BrokenLinks {
 
 
 2026-01-06 09:58:02,519 - Project_LR -INFO - URL is Opened Successfully
+2026-01-07 10:25:14,100 - Project_LR -INFO - URL is Opened Successfully
