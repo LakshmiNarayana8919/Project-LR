@@ -19,10 +19,10 @@ public class GetInspired {
 	
 	@FindBy(xpath="//button[@class='hotspot__button hotspot__button--product_FzRdJB']")WebElement buttongoldenphomosplant;
 	
-	
+	@FindBy(xpath="//button[@class='hotspot__button hotspot__button--product_eEY4Py']")WebElement catpalmplussymbol2;
 	
 	public void getinspiredplussymbols() throws InterruptedException {
-		
+		// botton golden phomos plant
 		
        JavascriptExecutor je=(JavascriptExecutor)driver;
 		
@@ -34,5 +34,19 @@ public class GetInspired {
 		Thread.sleep(3000);
 		
 		
+	}
+	
+	
+	public void getinspiredplussymbols1() throws InterruptedException {
+		// cat palm plant
+		 JavascriptExecutor je=(JavascriptExecutor)driver;
+			
+			
+			je.executeScript("arguments[0].scrollIntoView()",buttongoldenphomosplant);
+			je.executeScript("arguments[0].click()",catpalmplussymbol2);
+			//Thread.sleep(3000);
+			Thread.sleep(3000);
+			
+			
 	}
 }

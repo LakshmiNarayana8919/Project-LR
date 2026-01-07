@@ -15,5 +15,6 @@ public class TC_019_GetInspired1 extends Base1{
 		
 		gn.getinspiredplussymbols();
 		Thread.sleep(3000);
+		log.info("bottom golden plant plus button is successfully executed");
 	}
 }
