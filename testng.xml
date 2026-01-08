@@ -27,10 +27,12 @@
            <class name="testCasesClass.TC_017_BestSellingPlants4"/>
          <class name="testCasesClass.TC_018_BestSellingPlants5"/> 
          
-         <class name="testCasesClass.TC_019_GetInspired1"/> -->
+         <class name="testCasesClass.TC_019_GetInspired1"/>
          
           
-         <class name="testCasesClass.TC_020_GetInspired2"/> 
+         <class name="testCasesClass.TC_020_GetInspired2"/>  -->
+         
+         <class name="testCasesClass.TC_021_GetInspired3"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
