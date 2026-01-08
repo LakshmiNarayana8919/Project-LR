@@ -1,0 +1,16 @@
+package testCasesClass;
+
+import baseclass.Base1;
+import pageObjectClass.GetInspired;
+
+public class TC_022_GetInspired3 extends Base1 {
+
+	
+	public void getinspiredbostonfern() throws InterruptedException {
+		GetInspired gn=new GetInspired(driver);
+		gn.getinspiredplussymbols3();
+	    log.info("boston fern plant in plus button is successfully executed");
+			
+			Thread.sleep(3000);
+	}
+}

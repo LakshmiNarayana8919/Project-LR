@@ -21,6 +21,12 @@ public class GetInspired {
 	
 	@FindBy(xpath="//button[@class='hotspot__button hotspot__button--product_eEY4Py']")WebElement catpalmplussymbol2;
 	
+	@FindBy(xpath="//button[@class='hotspot__button hotspot__button--product_yUwcby']")WebElement zzplusbutton;
+	
+	
+	
+	@FindBy(xpath="//button[@class='hotspot__button hotspot__button--product_TpPWbc']")WebElement bostonfernplant;
+	
 	public void getinspiredplussymbols() throws InterruptedException {
 		// botton golden phomos plant
 		
@@ -49,4 +55,38 @@ public class GetInspired {
 			
 			
 	}
+	
+	public void getinspiredplussymbols2() throws InterruptedException {
+		// zz plant in plus button plant
+		 JavascriptExecutor je=(JavascriptExecutor)driver;
+			
+			
+			je.executeScript("arguments[0].scrollIntoView()",buttongoldenphomosplant);
+			je.executeScript("arguments[0].click()",zzplusbutton);
+			//Thread.sleep(3000);
+			Thread.sleep(3000);
+			
+			Thread.sleep(2000);
+			
+	}
+	
+	public void getinspiredplussymbols3() throws InterruptedException {
+		// boston fern plant in plus button plant element xpath--> //button[@class='hotspot__button hotspot__button--product_TpPWbc']
+		 JavascriptExecutor je=(JavascriptExecutor)driver;
+			
+			
+			je.executeScript("arguments[0].scrollIntoView()",buttongoldenphomosplant);
+			je.executeScript("arguments[0].click()",bostonfernplant);
+			//Thread.sleep(3000);
+			Thread.sleep(3000);
+			
+			Thread.sleep(2000);
+	
+	
+	
+	
+	
+	
+	}
+	
 }

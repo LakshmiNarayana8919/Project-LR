@@ -40,7 +40,7 @@ public class Base1 {
 		log=Logger.getLogger("Project_LR");
 		PropertyConfigurator.configure("log4j.properties");
 		
-		log.info("URL is Opened Successfully");
+		//log.info("URL is Opened Successfully");
 	}
 	@AfterSuite
 	public void CLOSEURL() {
