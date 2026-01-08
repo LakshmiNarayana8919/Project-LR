@@ -1,11 +1,13 @@
 package testCasesClass;
 
+import org.testng.annotations.Test;
+
 import baseclass.Base1;
 import pageObjectClass.GetInspired;
 
 public class TC_021_GetInspired3 extends Base1{
 
-	
+	@Test
 	public void getinspiredzzplant() throws InterruptedException {
 		GetInspired gn=new GetInspired(driver);
 		gn.getinspiredplussymbols2();
