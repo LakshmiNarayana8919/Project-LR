@@ -30,9 +30,11 @@
          <class name="testCasesClass.TC_019_GetInspired1"/>
          
           
-         <class name="testCasesClass.TC_020_GetInspired2"/>  -->
+         <class name="testCasesClass.TC_020_GetInspired2"/> 
          
-         <class name="testCasesClass.TC_021_GetInspired3"/> 
+         <class name="testCasesClass.TC_021_GetInspired3"/> -->
+         
+         <class name="testCasesClass.TC_022_GetInspired4"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

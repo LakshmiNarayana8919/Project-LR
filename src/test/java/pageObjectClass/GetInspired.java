@@ -83,10 +83,19 @@ public class GetInspired {
 			Thread.sleep(2000);
 	
 	
-	
-	
-	
-	
 	}
+	
+	
+	// //button[@class='hotspot__button hotspot__button--product_ytjcgQ']  peacelilly element path in get inspired 
+	   // -->  dd shop plants - best sellers-- > (//p[@class='group-title small--hide'])[1]/following-sibling::ul//li
+	
+	
+	// indoor plants in get inspired plus button 2nd image
+	// 1button element xpath axes --> //div[@class='hotspots__buttons']/child::button[contains(@class,'hotspot__button hotspot__button--product_iBT7Wr')]
+	
+	
+	
+	
+	
 	
 }
