@@ -19,7 +19,11 @@ local host jenkins -
 
 http://localhost:8080/
 
+id="u_0_0_jE"
+id="u_0_0_RM"
+data-testid="open-registration-form-button"
 
+facebook create new account dynamic xpath--> (//div[@class='_6ltg'])[2]//child::a[contains(@data-testid,'open-registration-form-button')]
 
 2026-01-05 10:28:00,541 - Project_LR -INFO - URL is Opened Successfully
 2026-01-05 10:28:56,361 - Project_LR -INFO - URL is Opened Successfully
@@ -105,3 +109,5 @@ public class Day12_BrokenLinks {
 2026-01-07 13:42:34,388 - Project_LR -INFO - URL is Opened Successfully
 2026-01-07 13:42:37,933 - Project_LR -INFO - cat palm in plus button is successfully executed
 2026-01-07 13:43:53,865 - Project_LR -INFO - URL is Opened Successfully
+2026-01-09 14:49:59,206 - Project_LR -INFO - zz plant in plus button is successfully executed
+2026-01-09 14:52:19,575 - Project_LR -INFO - boston fern plant in plus button is successfully executed
