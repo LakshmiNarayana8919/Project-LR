@@ -27,6 +27,10 @@ public class GetInspired {
 	
 	@FindBy(xpath="//button[@class='hotspot__button hotspot__button--product_TpPWbc']")WebElement bostonfernplant;
 	
+	
+	
+	@FindBy(xpath="//div[@class='hotspots__buttons']/child::button[contains(@class,'hotspot__button hotspot__button--product_iBT7Wr')]")WebElement getinspiredsideindoorplantlink;
+	
 	public void getinspiredplussymbols() throws InterruptedException {
 		// botton golden phomos plant
 		
@@ -93,9 +97,28 @@ public class GetInspired {
 	// indoor plants in get inspired plus button 2nd image
 	// 1button element xpath axes --> //div[@class='hotspots__buttons']/child::button[contains(@class,'hotspot__button hotspot__button--product_iBT7Wr')]
 	
+	public void getinspiredsideindoorplantlink() throws InterruptedException {
+		// getinspired side indoorplant link plant  button plant element xpath
+		 JavascriptExecutor je=(JavascriptExecutor)driver;
+			
+			
+			je.executeScript("arguments[0].scrollIntoView()",getinspiredsideindoorplantlink);
+			
+			
+			je.executeScript("arguments[0].click()",getinspiredsideindoorplantlink);
+			//Thread.sleep(3000);
+			Thread.sleep(3000);
+			
+			Thread.sleep(2000);
+	}
 	
-	
-	
-	
-	
+
+
+
+
+
 }
+	
+	
+	
+
