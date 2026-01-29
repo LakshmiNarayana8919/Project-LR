@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-05T10:33:06 IST" name="Default suite" finished-at="2026-01-05T10:33:13 IST" duration-ms="6453">
+  <suite started-at="2026-01-28T10:16:41 IST" name="Default suite" finished-at="2026-01-28T10:16:49 IST" duration-ms="8459">
     <groups>
     </groups>
-    <test started-at="2026-01-05T10:33:06 IST" name="Default test" finished-at="2026-01-05T10:33:13 IST" duration-ms="6453">
-      <class name="testCasesClass.TC_019_GetInspired1">
-        <test-method is-config="true" signature="OPENURL()[pri:0, instance:testCasesClass.TC_019_GetInspired1@77c2494c]" started-at="2026-01-05T10:32:40 IST" name="OPENURL" finished-at="2026-01-05T10:33:06 IST" duration-ms="26760" status="PASS">
+    <test started-at="2026-01-28T10:16:41 IST" name="Default test" finished-at="2026-01-28T10:16:49 IST" duration-ms="8459">
+      <class name="testCasesClass.TC_023_IndoorPlantLinkLeftSideOfGetInspired">
+        <test-method is-config="true" signature="OPENURL()[pri:0, instance:testCasesClass.TC_023_IndoorPlantLinkLeftSideOfGetInspired@5bda8e08]" started-at="2026-01-28T10:16:13 IST" name="OPENURL" finished-at="2026-01-28T10:16:41 IST" duration-ms="28256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OPENURL -->
-        <test-method signature="getinspired()[pri:0, instance:testCasesClass.TC_019_GetInspired1@77c2494c]" started-at="2026-01-05T10:33:07 IST" name="getinspired" finished-at="2026-01-05T10:33:13 IST" duration-ms="6392" status="PASS">
+        <test-method signature="indoorplantsidetogetinspired()[pri:0, instance:testCasesClass.TC_023_IndoorPlantLinkLeftSideOfGetInspired@5bda8e08]" started-at="2026-01-28T10:16:41 IST" name="indoorplantsidetogetinspired" finished-at="2026-01-28T10:16:49 IST" duration-ms="8379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getinspired -->
-        <test-method is-config="true" signature="CLOSEURL()[pri:0, instance:testCasesClass.TC_019_GetInspired1@77c2494c]" started-at="2026-01-05T10:33:13 IST" name="CLOSEURL" finished-at="2026-01-05T10:33:13 IST" duration-ms="248" status="PASS">
+        </test-method> <!-- indoorplantsidetogetinspired -->
+        <test-method is-config="true" signature="CLOSEURL()[pri:0, instance:testCasesClass.TC_023_IndoorPlantLinkLeftSideOfGetInspired@5bda8e08]" started-at="2026-01-28T10:16:49 IST" name="CLOSEURL" finished-at="2026-01-28T10:16:50 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CLOSEURL -->
-      </class> <!-- testCasesClass.TC_019_GetInspired1 -->
+      </class> <!-- testCasesClass.TC_023_IndoorPlantLinkLeftSideOfGetInspired -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
