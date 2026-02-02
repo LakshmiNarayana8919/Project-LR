@@ -32,9 +32,11 @@
           
          <class name="testCasesClass.TC_020_GetInspired2"/> 
          
-         <class name="testCasesClass.TC_021_GetInspired3"/> -->
+         <class name="testCasesClass.TC_021_GetInspired3"/>
          
-         <class name="testCasesClass.TC_022_GetInspired4"/> 
+         <class name="testCasesClass.TC_022_GetInspired4"/>  -->
+         
+         <class name="testCasesClass.TC_023_IndoorPlantLinkLeftSideOfGetInspired"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
