@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCasesClass.TC_019_GetInspired1">
+      <class name="testCasesClass.TC_024_GiftShop1">
         <methods>
           <include name="CLOSEURL"/>
-          <include name="getinspired"/>
+          <include name="getstarted1"/>
           <include name="OPENURL"/>
         </methods>
-      </class> <!-- testCasesClass.TC_019_GetInspired1 -->
+      </class> <!-- testCasesClass.TC_024_GiftShop1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
