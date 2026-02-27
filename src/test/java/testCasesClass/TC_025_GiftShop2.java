@@ -13,7 +13,7 @@ public class TC_025_GiftShop2 extends Base1 {
 	public void clickonmoneytreeplant() throws InterruptedException {
 		GiftShop gs=new GiftShop(driver);
 		Thread.sleep(3000);
-		gs.moneyplantingiftshop();
+		gs.calathearattlesnakeplantingiftshop();
 		log.info("Click action successful in gift shop moneytree plant");
 	}
 

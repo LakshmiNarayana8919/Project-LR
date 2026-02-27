@@ -23,6 +23,8 @@ public class GiftShop {
 	
 	@FindBy(xpath="(//img[@loading='lazy'])[13]")WebElement calathearattlesnakeplantingiftshop;
 	
+	@FindBy(xpath="(//img[@loading='lazy'])[15]")WebElement goldenpothosplant;
+	
 	public void clickgetstarted() throws InterruptedException {
 		// click on the get started in gift shop
 		
@@ -57,6 +59,22 @@ public class GiftShop {
 		
 		
 		
+		Thread.sleep(3000);
+		
+	}
+	
+	
+	
+	
+public void godenpothosplantingiftshop() throws InterruptedException {
+		
+		// golden pothos plant in giftshop
+	
+	
+		giftshoplink.click();
+		Thread.sleep(3000);
+		
+		goldenpothosplant.click();
 		Thread.sleep(3000);
 		
 	}
